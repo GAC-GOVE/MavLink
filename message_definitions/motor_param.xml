@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mavlink>
+  <version>3</version>
+  <messages>
+    <message id="996" name="MotorParameter">
+      <description>Motor Parameter.</description>
+      <field type="uint8_t" name="ID"> Mortor ID</field>
+      <field type="uint32_t" name="Speed"> Mortor Speed </field>
+    </message>
+  </messages>
+</mavlink>
